@@ -1,0 +1,115 @@
+.fijo {
+    position: sticky;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.model-logo {
+    width: 45%;
+    height: 60%;
+}
+
+.bordes {
+    border-radius: 30px;
+}
+
+.cajacarro {
+    display: flex;
+    justify-content: center;
+}
+
+.cajacarro img {
+    position: absolute;
+    transition: all 5s ease-in;
+}
+
+.cajacarro .colores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cajacarro .colores span {
+    /*position: relative;*/
+    width: 40px;
+    height: 40px;
+    margin: 450px 10px 120px 10px;
+    /*margin-bottom: -700px;  */
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.cajacarro span.one,
+.cajacarro .colores i.one {
+    background: #ec1212;
+}
+
+.cajacarro span.two,
+.cajacarro .colores i.two {
+    background: #0d0d0d;
+}
+
+.cajacarro span.three,
+.cajacarro .colores i.three {
+    background: #4800ff;
+}
+
+.cajacarro span.four,
+.cajacarro .colores i.four {
+    background: #00883ded;
+}
+
+.cajacarro .colores span.active+i {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /*modo de color*/
+    mix-blend-mode: hue;
+}
+
+.titulos1 {
+    font-size: 40px;
+}
+
+.titulos2 {
+    font-size: 30px;
+}
+
+.margin {
+    margin-bottom: 80px;
+}
+
+.color1 {
+    color: #000;
+}
+
+.color2 {
+    color: orange;
+}
+
+@media (max-width: 576px) {
+    .cajacarro .colores span {
+        width: 30px;
+        height: 30px;
+        transition: none;
+    }
+    .carro {
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .cajacarro span.one,
+    .cajacarro .colores {
+        transition: none;
+    }
+}

@@ -1,0 +1,120 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulos1 {
+    font-size: 60px !important;
+}
+
+.titulos2 {
+    font-size: 80px !important;
+}
+
+.margin {
+    margin-bottom: 70px;
+}
+
+.color1 {
+    color: #000;
+}
+
+.fijo {
+    top: 0;
+    position: sticky;
+    /*GOOGLE*/
+    z-index: 1000;
+}
+
+.radio {
+    border-radius: 50%;
+}
+
+.p1 {
+    font-size: 18px !important;
+    color: #000 !important;
+}
+
+.container-fluid {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.fondotira {
+    background-color: #ffffff93;
+}
+
+.fondo1 {
+    background-color: #1abc9c;
+    /* Green */
+    color: #ffffff;
+}
+
+.fondo2 {
+    background-color: #474e5d;
+    /* Dark Blue */
+    color: #ffffff;
+}
+
+.fondo3 {
+    background-color: #ffffff;
+    /* White */
+    color: #555555;
+}
+
+.fondo4 {
+    background-color: #ccc;
+    /* Gray Light */
+    color: #000;
+}
+
+.fondo5 {
+    background-color: #2f2f2f;
+    /* Gray Dark */
+    color: #fff;
+}
+
+.dir1 {
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.go-top {
+    position: fixed;
+    bottom: 7em;
+    right: 1em;
+    padding: 1em;
+}
+
+.go-top img:hover {
+    transform: scale(1.5);
+    transition: all 0.8s;
+}
+
+.pie {
+    color: #ffffff;
+    line-height: 30px;
+    padding: 20px 0 0 0;
+}
+
+.espacio {
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+}
+
+div.animacion1:hover i {
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg);
+    color: red;
+}
+
+div.animacion2:hover i::before {
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg);
+    color: red;
+}
+
+div.animacion3:hover i::before {
+    transition: all 1s ease-in-out;
+    color: green;
+}

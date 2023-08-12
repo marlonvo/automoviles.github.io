@@ -1,0 +1,74 @@
+/* propiedades de la caja del tabulador */
+
+.fotofondo {
+    background-image: url("../imagenes/autos.jpg");
+}
+
+.tab {
+    overflow: hidden;
+    border: 2px solid #ccc;
+    /*color de la barra principal del tabulador*/
+    /*background-color: #f1f1f1;*/
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/* controla propiedades de los TABS */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    color: rgb(254, 252, 252);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+
+/* controla el color sobre los TABS */
+
+.tab button:hover {
+    background-color: rgb(65, 66, 65);
+    color: #fff;
+}
+
+
+/* controla el color activo de los TABS */
+
+.tab button.active {
+    background-color: rgba(45, 107, 26, 0.574);
+    color: #fff;
+}
+
+
+/* controla el contenido de cada pestaña tab */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid rgba(194, 182, 182, 0.725);
+    border-top: none;
+    background: #eee;
+}
+
+
+/* El efecto de desvanecimiento tarda 1 segundo */
+
+.tabcontent {
+    animation: efect1 2s;
+}
+
+@keyframes efect1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

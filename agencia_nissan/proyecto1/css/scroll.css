@@ -1,0 +1,19 @@
+.go-top {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 30px;
+}
+
+.go-top img:hover {
+    transform: scale(2);
+    transition: all 0.8s;
+    border-radius: 30px;
+}
+
+.container-fluid {
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
